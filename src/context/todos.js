@@ -16,7 +16,7 @@ const TodoContext = createContext({
 const TodoProvider = ({children}) => {
     const [todos, setTodos] = useState({
         inputValue: '',
-        todo: [{id:1, text:'컨텍스트 연스보하기', done:false}]
+        todo: [{id:1, text:'컨텍스트 연습하기', done:false}]
     })
     // value에 알아보기 쉽도록 요렇게 적어주어도 된다.
     // const value = {
